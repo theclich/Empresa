@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHIKLE</title>
+    <script src="https://kit.fontawesome.com/fe060c3d5b.js" crossorigin="anonymous"></script>
+    <style>
+       
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron&family=Rubik+Maps&display=swap');
+
+        *{
+             box-sizing:border-box;
+             margin: 0 ;
+        }
+
+        header{
+            height: 300px;
+            background-size: 100% 100%;
+            background-image: url("imagenes/Imagen\ cabecera.png");
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            text-align:center;
+            
+            
+        }
+        
+        nav{
+            background-color: red;
+
+        }
+
+        nav ul{
+            margin: 0px;
+        }
+
+        nav li{
+            display:inline-block;
+            font-size: 20px;
+            padding: 20px;
+            width: 33%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-family: 'Orbitron';
+            font-weight:400;
+        }
+
+        nav a:hover{
+            color: white;
+            font-weight: bold;
+        }
+
+        header h1 a{
+            color:brown;
+            font-size: 60px;
+            font-family: 'Rubik Maps';
+            text-decoration: none;
+        }
+
+        header h2{
+            color: blueviolet;
+            font-size: 25px;
+            font-family: 'Rubik Maps';
+        }
+
+        body{
+            background-image: url("./imagenes/24f3de7851032624f5efd20ca50b576b.jpg");
+            background-size: cover;
+            margin: 0;
+        }
+        main h2{
+            color:#023e8a;
+            text-align: center;
+        }
+        #contenedor-imagenes {
+            padding: 5px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            width: 33%;
+
+        }
+
+        footer{
+            text-align: center;   
+            padding: 20px;  
+            background-color: lightgrey;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            font-family: 'Bebas Neue';
+        }
+
+        #contacte{
+            width: 100%;
+        }
+
+        #Enlaces{
+           
+            width: 30%;
+
+        }
+
+        #direccion{
+            width: 30%;
+            
+        }
+
+        #mail{
+            width: 30%;
+
+        }
+
+        footer i{
+            padding: 5px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+         <div>
+            <h1><a href="index.html">CHIKLE</a></h1>
+            <h2>Viste tu estilo, vive tu moda</h2>
+         </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./Donde_Estamos.html">Donde Estamos</a></li>
+            <li><a href="./Nuestros_Servicios.html">Nuestros Servicios</a></li>
+            <li><a href="./Nuestros_Clientes.html">Nuestros Clientes</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Algunos de los modelajes realizados</h2>
+    
+        <article id="contenedor imagenes">
+            
+            <div >
+                <img src="./imagenes/Prendas/Camiseta_de_hombros_negra_con_pantalones_vaqueros_rotos.jpg" alt="Camiseta de hombros negra con pantalones vaqueros rotos" id="imagen1">
+            </div>
+            <div>
+                <img src="./imagenes/Prendas/Bestido_de_rojo_chillon.jpg" alt="Bestido de rojo chillon" id="imagen2">
+            </div>
+            <div id="imagen3"> 
+                <img src="./imagenes/Prendas/Bestido_de_flores.jpg" alt="Bestido de flores">
+            </div>
+            
+        </article>
+        
+            
+        
+        
+
+    <footer>
+        <div id="contacte">
+        <p>(C)2023 CHIKLE</p>
+        <hr>
+        </div>
+        <div id="Enlaces">
+                <p>Enlaces</p>
+                <a href="#"><i class="fa-brands fa-instagram" style="color: blueviolet;"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" style="color: aqua;"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>
+        </div>
+        <div id="direccion">
+            <p>Estamos en</p>
+            <p>Calle de Sta.María,</p> 
+            <p>02600 Villarrobledo, Albacete</p>
+        </div>
+        <div id="mail">
+            <p>Email</p>
+            <p>chikle02600@gmail.com</p>
+        </div>
+    </footer>
+    </main>
+</body>
+</html>

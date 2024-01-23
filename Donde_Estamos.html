@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHIKLE</title>
+    <script src="https://kit.fontawesome.com/fe060c3d5b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+   
+    <style>
+       
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron&family=Rubik+Maps&display=swap');
+
+        *{
+             box-sizing:border-box;
+             margin: 0 ;
+        }
+        header{
+            height: 300px;
+            background-size: 100% 100%;
+            background-image: url("imagenes/Imagen\ cabecera.png");
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            text-align:center;
+            
+            
+        }
+        nav{
+            background-color: red;
+
+        }
+        nav ul{
+            margin: 0px;
+        }
+        nav li{
+            display:inline-block;
+            font-size: 20px;
+            padding: 20px;
+            width: 33%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-family: 'Orbitron';
+            font-weight:400;
+        }
+        nav a:hover{
+            color: white;
+            font-weight: bold;
+        }
+        header h1 a{
+            color:brown;
+            font-size: 40px;
+            font-family: 'Rubik Maps';
+            text-decoration: none;
+        }
+        header h2{
+            color: blueviolet;
+            font-size: 20px;
+            font-family: 'Rubik Maps';
+        }
+        body{
+            background-image: url("./imagenes/Donde_estamos.jpg");
+            background-size: cover;
+            margin: 0;
+        }
+        section{
+            height: 500px;
+        }
+        article{
+            height: 50%;
+            padding: 20px;
+            
+
+        }
+        #texto{
+
+            width: 47%;
+            float: right;
+            box-sizing: border-box;
+            font-family: Arial;
+            color:black;
+            
+        }
+        #ubicacion{
+            height: 100%;
+            text-align: justify;
+            padding-left: 40px;
+            padding-top: 15px;
+        }
+        #ubicacion iframe{
+            border-radius: 15px;
+        }
+        main h2{
+            color: #84a98c;
+            padding: 20px;
+        }
+       
+         footer{
+            text-align: center;   
+            padding: 20px;  
+            background-color: lightgrey;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            font-family: 'Bebas Neue';
+        }
+        #contacte{
+            width: 100%;
+        }
+        #Enlaces{
+           
+            width: 30%;
+
+        }
+        #direccion{
+            width: 30%;
+        }
+        #mail{
+            width: 30%;
+        }
+        footer i{
+            padding: 5px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+         <div>
+            <h1><a href="index.html">CHIKLE</a></h1>
+            <h2>Viste tu estilo, vive tu moda</h2>
+         </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./Donde_Estamos.html">Donde Estamos</a></li>
+            <li><a href="./Nuestros_Servicios.html">Nuestros Servicios</a></li>
+            <li><a href="./Nuestros_Clientes.html">Nuestros Clientes</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Dondé Estamos</h2>
+    
+    <section>
+        <article>
+            <div id="ubicacion">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.9948730020546!2d-2.608101225223309!3d39.26568292489176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6887c38a1576c1%3A0x78c2afc851d2d6e0!2sCHIKLE%20moda.!5e0!3m2!1ses!2ses!4v1702890376849!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+        </article>
+        <article>
+            <div id="texto">
+                Chikle es una tienda de ropa de moda, donde damos a conocer varias marcas Españolas: Censured y otras más...
+                <p></p>
+                Llevamos en la moda en nuestra tienda Chikle y el los mercadillos de diferentes pueblos como: La Alberca del Zancará, Albacete, San Clemente, Villarrobledo, Las Mesas, Socuéllamos y Tomelloso.
+                <p></p>
+                En Chikle vas a encontrar prendas únicas y muy bien seleccionadas, difíciles de encontrar, ofreciendo así una importante exclusividad. Además, la calidad es una de nuestras premisas, siempre encontrarás las mejores cualidades en nuestras colecciones.
+                
+            </div>
+        </article>
+       
+    </section>
+    
+    <footer>
+        <div id="contacte">
+        <p>(C)2023 CHIKLE</p>
+        <hr>
+        </div>
+        <div id="Enlaces">
+                <p>Enlaces</p>
+                <a href="#"><i class="fa-brands fa-instagram" style="color: blueviolet;"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" style="color: aqua;"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>
+        </div>
+        <div id="direccion">
+            <p>Estamos en</p>
+            <p>Calle de Sta.María,</p> 
+            <p>02600 Villarrobledo, Albacete</p>
+        </div>
+        <div id="mail">
+            <p>Email</p>
+            <p>chikle02600@gmail.com</p>
+        </div>
+    </footer>
+    </main>
+</body>
+</body>
+</html>
